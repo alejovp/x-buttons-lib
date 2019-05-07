@@ -1,13 +1,13 @@
 const path = require('path');
 const APP_DIR = path.resolve(__dirname, 'src');
 const BUILD_DIR = path.resolve(__dirname, 'public');
-const libraryName = 'x-buttons';
+const libraryName = 'x-buttons-lib';
 const outputFile = `${libraryName}.js`;
 
 
 module.exports = {
 	entry: {
-		main: ['babel-polyfill', `${APP_DIR}/index.js`]
+		main: `${APP_DIR}/index.js`
 	},
 	devServer: {
 		contentBase: BUILD_DIR,
@@ -19,7 +19,6 @@ module.exports = {
 		path: `${BUILD_DIR}/js`,
 		library: libraryName,
 		libraryTarget: 'umd',
-		umdNamedDefine: true
 	},
 	module: {
 		rules: [
