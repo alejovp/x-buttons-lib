@@ -40,7 +40,7 @@ module.exports = {
 			},
 			{
                 test: /\.(png|jpg|gif|svg)$/,
-                loader: 'file-loader',
+                loader: 'base64-image-loader',
                 include : APP_DIR,
                 options: {
                     name: '[name]-[sha256:hash:base64:4].[ext]',
