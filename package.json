@@ -1,18 +1,19 @@
 {
-  "name": "react-event-booking-app",
+  "name": "x-buttons-lib",
   "version": "1.0.0",
+  "main": "public/js/x-buttons.js",
   "description": "",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alejovp/react-event-booking-app.git"
+    "url": "git+https://github.com/alejovp/x-buttons-lib.git"
   },
   "author": "Alejandro Vázquez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alejovp/react-event-booking-app/issues"
+    "url": "https://github.com/alejovp/x-buttons-lib/issues"
   },
-  "homepage": "https://github.com/alejovp/react-event-booking-app#readme",
+  "homepage": "https://github.com/alejovp/x-buttons-lib#readme",
   "scripts": {
     "pre-build": "rm -rf public/js/",
     "build": "npm run pre-build && webpack -p",
@@ -37,7 +38,7 @@
     "eslint": "5.15.0",
     "eslint-plugin-babel": "5.3.0",
     "eslint-plugin-react": "7.12.4",
-    "file-loader": "^3.0.1",
+    "file-loader": "3.0.1",
     "node-sass": "4.11.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
