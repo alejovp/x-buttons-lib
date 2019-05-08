@@ -16,8 +16,7 @@
   "homepage": "https://github.com/alejovp/x-buttons-lib#readme",
   "scripts": {
     "pre-build": "rm -rf public/js/",
-    "build": "npm run pre-build && webpack -p",
-    "build-dev": "npm run pre-build && webpack -d --watch",
+    "build": "npm run pre-build && webpack -p --env.production",
     "dev": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint ./src/**/*.{js,jsx}"
@@ -43,6 +42,7 @@
     "style-loader": "0.23.1",
     "webpack": "4.29.6",
     "webpack-cli": "3.2.3",
-    "webpack-dev-server": "3.2.1"
+    "webpack-dev-server": "3.2.1",
+    "webpack-node-externals": "1.7.2"
   }
 }
