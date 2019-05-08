@@ -1,7 +1,7 @@
 {
   "name": "x-buttons-lib",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "public/js/x-buttons-lib.js",
   "description": "",
   "private": true,
   "repository": {
