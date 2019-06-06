@@ -4,6 +4,12 @@ body {
     text-align: center;
 }
 
+.comp-cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .code-cont {
     display: flex;
     align-items: center;
