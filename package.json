@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/alejovp/x-buttons-lib#readme",
   "scripts": {
-    "pre-build": "rm -rf public/js/",
+    "pre-build": "rm -rf public/js/ && rm -rf public/images/",
     "build": "npm run pre-build && webpack -p --env.production",
     "dev": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1",
