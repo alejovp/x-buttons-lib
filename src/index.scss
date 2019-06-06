@@ -1,4 +1,18 @@
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+
+.code-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .code-txt {
+        line-height: 24px;
+        padding: 10px;
+        margin-top: 15px;
+        background-color: #f0f0f3;
+    }
 }
