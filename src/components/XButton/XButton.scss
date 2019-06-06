@@ -1,0 +1,14 @@
+.x-btn {
+    cursor: pointer;
+    border-radius: 10px;
+
+    &:focus {
+        border-radius: 10px;
+        outline: none;
+    }
+
+    .x-img {
+        width: 82px;
+        height: 60px;
+    }
+}
